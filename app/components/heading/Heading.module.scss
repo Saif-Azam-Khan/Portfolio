@@ -1,0 +1,20 @@
+@import "../../styles/variables.scss";
+
+.cover {
+  margin-top: 0.8rem;
+  color: aliceblue;
+  text-align: center;
+  .name {
+    margin: 0;
+    font-size: clamp($font_10, 10vw , 12vw);
+  }
+  .profile {
+    margin: 0;
+    font-size: clamp($font_11, 8vw , 10vw);
+  }
+  .description {
+    margin: 0;
+    font-size: clamp($font_12, 6vw , 8vw);
+  }
+}
+

@@ -1,0 +1,14 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  --scrollbar-width: 0px;
+  font-family: Arial,Helvetica,sans-serif;
+  font-size: 10px;
+  margin: 0;
+  align-items: center;
+  background-image: url('../public/v859-katie-11.svg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+

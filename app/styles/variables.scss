@@ -1,0 +1,27 @@
+$font_1: 6.5rem;
+$font_2: 6rem;
+$font_3: 5.5rem;
+$font_4: 5rem;
+$font_5: 4.5rem;
+$font_6: 4rem;
+$font_7: 3.5rem;
+$font_8: 3rem;
+$font_9: 2.5rem;
+$font_10: 2rem;
+$font_11: 1.5rem;
+$font_12: 1rem;
+//clamp(2rem, 12vw + 1rme, 6.5rem);
+@media (max-width: 700px) {
+  $font_1: 4rem !important; 
+  $font_2: 6rem;
+  $font_3: 5.5rem;
+  $font_4: 5rem;
+  $font_5: 4.5rem;
+  $font_6: 4rem;
+  $font_7: 3.5rem;
+  $font_8: 3rem;
+  $font_9: 2.5rem;
+  $font_10: 2rem;
+  $font_11: 1.5rem;
+  $font_12: 1rem;
+}

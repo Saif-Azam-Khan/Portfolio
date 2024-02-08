@@ -1,0 +1,38 @@
+.container {
+  display: grid;
+  place-items: center;
+  place-items: center;
+  ul {
+    background-color: #1345903a;
+    width: 85%;
+    padding: 1rem;
+    border-radius: 16px;
+    list-style: none;
+    h2{
+        color: aliceblue;
+        text-align: center;
+        font-size: clamp(1rem, 4vw, 6vw);
+    }
+  }
+  .skills {
+    font-size: 1.5rem;
+    color: azure;
+}
+  .percentage {
+    position: relative;
+    font-size: 1rem;
+    margin-top: 0.2rem;
+    margin-bottom: 1rem;
+  }
+}
+.percentage::before {
+  content: "";
+  position: absolute;
+  padding: 3px;
+  background-color: #00ccff;
+  border-radius: 12px;
+  width: inherit;
+  height: 1.5rem;
+  top: -5px;
+  z-index: -1;
+}
