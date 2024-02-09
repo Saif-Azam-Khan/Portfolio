@@ -28,6 +28,10 @@
         list-style: none;
         display: block;
         padding: 1rem;
+        a {
+          text-decoration: none;
+          color: aliceblue;
+        }
       }
       :hover {
         background-color: #464441;
@@ -54,9 +58,9 @@
         flex-direction: column;
         width: 100%;
         text-align: center;
-      li{
-        padding: 0.7rem;
-      }
+        li {
+          padding: 0.7rem;
+        }
       }
     }
   }

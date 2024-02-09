@@ -2,7 +2,12 @@ import styles from "./About.module.scss";
 
 function About() {
   return (
-    <div className={styles.cover}>
+    <div className={styles.cover} id="about">
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
       <div className={styles.content}>
         <h2>ABOUT</h2>
         <p>

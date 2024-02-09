@@ -28,7 +28,7 @@
 .percentage::before {
   content: "";
   position: absolute;
-  background-color: #00ccff;
+  background: linear-gradient(to left,#d500f9 , #00ccff 80%, #d500f9);
   margin-top: 2px;
   margin-left: -2px;
   border-radius: 12px;
@@ -36,8 +36,8 @@
   height: 1rem;
   top: -5px;
   z-index: -1;
-  animation: expand 2s linear forwards;
-  animation-timeline: view(400px 0px);
+  animation: expand 4s linear forwards;
+  animation-timeline: view(600px 0px);
 }
 @keyframes expand {
   from {

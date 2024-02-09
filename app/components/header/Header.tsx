@@ -3,11 +3,11 @@ import { useState } from "react";
 import styles from "./Header.module.scss";
 import MenuRoundedIcon from "@mui/icons-material/MenuRounded";
 const MENU_ITEMS = [
-  "ABOUT",
-  "SKILLS",
-  "EXPERIENCE",
-  "EDUCATION",
-  "CONTACT",
+  { id: "about", title: "ABOUT" },
+  { id: "skills", title: "SKILLS" },
+  { id: "experience", title: "EXPERIENCE" },
+  { id: "education", title: "EDUCATION" },
+  { id: "contact", title: "CONTACT" },
 ];
 
 export default function Header() {
@@ -22,7 +22,9 @@ export default function Header() {
       <div className={show ? styles.navLinks : styles.navLinksShow}>
         <ul>
           {MENU_ITEMS.map((e, index) => (
-            <li key={index}>{e}</li>
+            <li key={index}>
+              <a href={`#${e.id}`}>{e.title}</a>
+            </li>
           ))}
         </ul>
       </div>

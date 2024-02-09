@@ -27,7 +27,7 @@ const SKILLS = [
 
 function Skills() {
   return (
-    <div className={styles.container}>
+    <div className={styles.container} id="skills">
       <ul>
         <h2>SKILLS</h2>
         {SKILLS.map((e, index) => (
